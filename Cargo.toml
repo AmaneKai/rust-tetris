@@ -8,11 +8,6 @@ repository = "https://github.com/Floranaras/rust-tetris"
 keywords = ["game", "tetris", "gameboy"]
 categories = ["games"]
 
-[lib]
-name = "rust_tetris"
-path = "src/lib.rs"
-crate-type = ["lib", "cdylib"]  
-
 [[bin]]
 name = "rust-tetris"
 path = "src/main.rs"
